@@ -19,8 +19,7 @@ alert(`Alright! We are done.
     You ${theyFight ? "WOULD" : "WOULD NOT (???)"} 
     physically harm another being.${theyFight ? "" : " (You chose the \"PeRfEcT\" job)"}
     
-    The tale of ${heroName} and their mighty pet 
-    ${heroPet} is just beginning. 
+    The tale of ${heroName} and their mighty pet ${heroPet} is just beginning. 
     As the power of your ${superPower} will cause 
     the greatest of warriors to rise.
     ===========================================`);
