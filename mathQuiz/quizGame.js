@@ -41,12 +41,16 @@ if (question4 === 4) {
 } else {
   alert("wrong answer.");
 }
-const question5 = prompt("What is the name of my 7th favorite \"The Amazing World of Gumball\" show?");
-if (question5 === "Larry") {
+const question5 = prompt("What is the name of my 7th favorite \"The Amazing World of Gumball\" show?").toLowerCase().trim();
+if (question5 === "larry") {
   finalScore++;
-  alert("You actually got it right! Thats Icredible, GREAT JOB!");
+    alert("You actually got it right! It was "+question5+", GREAT JOB!");
+} else if (question5 === "") {
+    alert("You didn't answer the question...");
+} else if (question5 === "null"){
+    alert("You didn't even TRY...quite sad to be honest.");
 } else {
-  alert("It was a gamble, and you lost.");
+    alert("It was a gamble, and you lost. It wasn\'t "+question5+".");
 }
 
 //calculations into percentages
