@@ -50,7 +50,7 @@ if (question5 === "Larry") {
 }
 
 //calculations into percentages
-let scorePercentage === Number((finalScore / 5) * 100);
+let scorePercentage = Number((finalScore / 5) * 100);
 
 
 if (scorePercentage === 100) {
