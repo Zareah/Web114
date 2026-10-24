@@ -2,7 +2,7 @@
 //10/21/26
 
 "use strict";
-
+prompt("Let\'s get this quiz started! Ready?");
 //set score to 0
 //prompt math question
 //save answer
