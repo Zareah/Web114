@@ -11,7 +11,7 @@ const buttons = document.querySelector('#buttons');
 //Changes the background color, text color, title, and quote based on the mood button clicked
 const moods = {
     happy:     { name:"Happy", bg: `#EEFF29`, text:`#D1A700`, moodquote:`Warm smiles and the sun kisses!`},
-    mad:       { name:"Mad", bg: `#A30000`, text:`#000000`, moodquote: `Furrowed brows and valcano Explosions.`},
+    mad:       { name:"Mad", bg: `#A30000`, text:`#000000`, moodquote: `Furrowed brows and valcanic Explosions.`},
     depressed: { name: "Depressed", bg: `#0000CC`, text:`#926EC2`, moodquote: `Its like a rain storm of tears.`},
     tranquil:  { name: "Tranquil", bg: `#4BB4A2`, text:`#317260`, moodquote: `A peaceful state of mind with light breezes.`},
 };
